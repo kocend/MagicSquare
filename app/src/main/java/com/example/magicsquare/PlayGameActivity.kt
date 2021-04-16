@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.magicsquare
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

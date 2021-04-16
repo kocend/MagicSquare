@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.myapplication">
+    package="com.example.magicsquare">
 
     <application
         android:allowBackup="true"
@@ -9,13 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".ParametersActivity"
-            android:parentActivityName=".MainActivity">
+        <activity android:name="com.example.magicsquare.ParametersActivity"
+            android:parentActivityName="com.example.magicsquare.MainActivity">
         </activity>
-        <activity android:name=".PlayGameActivity"
-            android:parentActivityName=".MainActivity">
+        <activity android:name="com.example.magicsquare.PlayGameActivity"
+            android:parentActivityName="com.example.magicsquare.MainActivity">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.magicsquare.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
